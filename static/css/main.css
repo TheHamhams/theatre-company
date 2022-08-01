@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 @font-face {
@@ -32,3 +32,33 @@ body {
     padding-right: 40px;
 }
 
+.month {
+    padding-left: 3%;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-button {
+    justify-content: flex-end;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.shows-img {
+    width: 100%
+}
+
+.show-line {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.info {
+    padding-left: 30px
+}
